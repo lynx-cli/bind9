@@ -22,5 +22,3 @@ wget -O/usr/share/dns/root.hints https://www.internic.net/domain/named.root
 systemctl start bind9
 systemctl enable bind9
 systemctl status bind9
-
-echo "BIND9 installed"
